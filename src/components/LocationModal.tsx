@@ -7,7 +7,7 @@ export function LocationModal({ isOpen, onClose }: { isOpen: boolean; onClose: (
     <Modal isOpen={isOpen} onClose={onClose} title="Nossa Localização">
       <div className="space-y-5">
         <div className="text-center space-y-1">
-          <h3 className="font-serif text-lg text-white">Marcilio Multimarcas</h3>
+          <h3 className="font-serif text-lg text-white">Marcílio Multimarcas</h3>
           <p className="text-sm text-zinc-400 font-sans">
             Rua Paranatama, 31<br />
             Pau Amarelo, Paulista - PE

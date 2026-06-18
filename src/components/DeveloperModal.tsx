@@ -9,7 +9,7 @@ export function DeveloperModal({ isOpen, onClose }: { isOpen: boolean; onClose: 
 
   const handleSend = () => {
     if (!nome.trim()) return;
-    const msg = `Olá, meu nome é *${nome.trim()}*.%0A%0AVi o link da *Marcilio Multimarcas* e quero um site igual!`;
+    const msg = `Olá, meu nome é *${nome.trim()}*.%0A%0AVi o link da *Marcílio Multimarcas* e quero um site igual!`;
     window.open(`https://wa.me/${devWhatsapp}?text=${msg}`, '_blank');
     onClose();
   };

@@ -11,7 +11,7 @@ export function AboutModal({ isOpen, onClose }: { isOpen: boolean; onClose: () =
           <div className="absolute inset-0 bg-luxury-gradient animate-gradient-x opacity-80" />
           <div className="absolute inset-0 flex items-center justify-center p-6 text-center">
             <h3 className="text-2xl font-serif text-white drop-shadow-lg scale-95 group-hover:scale-100 transition-transform duration-500">
-              Marcilio Multimarcas
+              Marcílio Multimarcas
             </h3>
           </div>
         </div>

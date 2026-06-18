@@ -46,7 +46,7 @@ export default function App() {
               <div className="relative rounded-full p-[2px] bg-gradient-to-tr from-[#9E8D61] via-[#F2EBE1] to-[#9E8D61] shadow-[0_8px_24px_rgba(0,0,0,0.6)] animate-coin-spin mx-auto w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32">
                 <img 
                   src="/logo.png" 
-                  alt="Marcilio Multimarcas Logo" 
+                  alt="Marcílio Multimarcas Logo" 
                   onError={(e) => {
                     (e.target as HTMLImageElement).src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%23111'/%3E%3Ctext x='50' y='55' font-family='serif' font-size='40' fill='%23C6B38E' text-anchor='middle'%3EMM%3C/text%3E%3C/svg%3E";
                   }}
@@ -61,7 +61,7 @@ export default function App() {
               transition={{ delay: 0.5, duration: 1 }}
               className="mt-3 sm:mt-4 md:mt-6 text-xl sm:text-2xl md:text-3xl font-serif font-bold text-luxury-gradient animate-gradient-text leading-tight"
             >
-              Marcilio Multimarcas
+              Marcílio Multimarcas
             </motion.h1>
             
             <div className="mt-2 sm:mt-3 md:mt-4 space-y-1 sm:space-y-1.5 text-zinc-300 text-xs sm:text-sm md:text-base">
@@ -78,7 +78,7 @@ export default function App() {
           </div>
 
           {/* Links Section */}
-          <div className="mt-4 sm:mt-6 md:mt-8 space-y-2 sm:space-y-3 flex-shrink overflow-y-auto w-full max-w-[95%] mx-auto pb-2">
+          <div className="mt-4 sm:mt-6 md:mt-8 space-y-2 sm:space-y-3 flex-shrink overflow-y-auto overflow-x-hidden w-full px-2 sm:px-4 mx-auto pb-2">
             <LinkButton 
               icon={<Instagram className="w-4 h-4 sm:w-5 sm:h-5" />} 
               text="Instagram" 

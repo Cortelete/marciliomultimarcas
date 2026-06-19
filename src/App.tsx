@@ -43,7 +43,7 @@ export default function App() {
               whileTap={{ scale: 0.95 }}
             >
               <div className="absolute inset-0 bg-[#C6B38E] rounded-full blur-xl opacity-20 group-hover:opacity-40 transition-opacity duration-700" />
-              <div className="relative rounded-full p-[2px] bg-gradient-to-tr from-[#9E8D61] via-[#F2EBE1] to-[#9E8D61] shadow-[0_8px_24px_rgba(0,0,0,0.6)] animate-coin-spin mx-auto w-16 h-16 sm:w-24 sm:h-24 md:w-32 md:h-32">
+              <div className="relative rounded-full p-[2px] bg-gradient-to-tr from-[#9E8D61] via-[#F2EBE1] to-[#9E8D61] shadow-[0_8px_24px_rgba(0,0,0,0.6)] animate-coin-spin mx-auto w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32">
                 <img 
                   src="/logo.png" 
                   alt="Marcílio Multimarcas Logo" 
